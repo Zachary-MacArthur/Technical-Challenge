@@ -39,3 +39,5 @@ Added a language translation for French and English
 Fixed Next.js hydration error with useEffect and local storage
 
 Fixed .svg rendering problems with Next.js
+
+Add Scss modules in tandem with tailwind css to improve reusability and efficiency of the project
