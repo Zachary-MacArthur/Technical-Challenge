@@ -42,6 +42,6 @@ Next.js, React, Javascript, Tailwind CSS, HTML, Vercel
 
 * Add Scss modules in tandem with tailwind css to improve reusability and efficiency of the project
 
-* Update the javascript code to typescript
+* Update the JavaScript code to TypeScript
 
-* Try incorporating Redux 
+* Try incorporating Redux
