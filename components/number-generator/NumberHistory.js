@@ -5,7 +5,7 @@ import React from 'react';
 const NumberHistory = ({ history, title }) => {
   return (
     <div className="mt-8">
-      <h3 className="text-lg cursor-default font-medium mb-3">{title}</h3>
+      <h3 className="text-lg cursor-default opacity-80 font-medium mb-3">{title}</h3>
       <div className="max-h-64 overflow-y-auto space-y-1">
         {history.map((item, index) => (
           <div 

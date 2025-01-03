@@ -71,7 +71,7 @@ const NumberGenerator = () => {
             text={isGenerating ? t.generating : t.generate}
           />
         </div>
-        <div className="flex justify-end -mr-14">
+        <div className="flex justify-end">
           <LanguageSwitcher 
             language={language}
             onToggle={toggleLanguage}
