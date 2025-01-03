@@ -42,6 +42,8 @@ Next.js, React, Javascript, Tailwind CSS, HTML, Vercel
 
 * Add Scss modules in tandem with tailwind css to improve reusability and efficiency of the project
 
+* Create light and dark themes - scss modules could be helpful for this
+
 * Update the JavaScript code to TypeScript
 
 * Try incorporating Redux
