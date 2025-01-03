@@ -23,6 +23,8 @@ Create a random number generator application
 
 **Link to Project:**
 
+![Screenshot 2025-01-02 200608](https://github.com/user-attachments/assets/4be63650-1c4b-41f8-84f2-5679e129e6ca)
+
 
 ## Technologies Used:
 
