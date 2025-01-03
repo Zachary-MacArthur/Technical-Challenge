@@ -5,6 +5,7 @@
 
 Create a random number generator application
 
+* Design an application to generate two random numbers between 1 and 5 (inclusive)
 * You can use the JavaScript framework of your choice
 * Create a function that generates two random numbers
 * Create a button to start the number generator
