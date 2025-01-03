@@ -33,6 +33,6 @@ Next.js, React, Javascript, Tailwind CSS, HTML, Vercel
 
 Added a language translation for French and English
 
-Fixed Next.js hydration error with useEffect
+Fixed Next.js hydration error with useEffect and local storage
 
 Fixed .svg rendering problems with Next.js
