@@ -1,5 +1,7 @@
 import "./globals.css";
 
+//
+
 export const metadata = {
   title: "Technical Challenge",
   description: "Tehcnical Challenge by Zachary MacArthur",
