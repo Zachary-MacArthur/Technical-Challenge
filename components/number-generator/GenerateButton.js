@@ -9,7 +9,7 @@ const GenerateButton = ({ onClick, isGenerating, text }) => {
       disabled={isGenerating}
       className="w-40 px-4 py-2 text-sm border border-gray-300 rounded-md
         transition-colors duration-200
-        hover:bg-gray-50 active:bg-gray-100
+        hover:opacity-60 active:bg-gray-100
         disabled:opacity-50"
     >
       {text}

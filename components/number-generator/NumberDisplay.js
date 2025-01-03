@@ -11,10 +11,12 @@ const NumberDisplay = ({ numbers, isGenerating }) => {
           className={`
             w-20 h-20 flex items-center justify-center text-2xl
             border rounded
-            transition-all duration-300 ease-in-out
             ${isGenerating ? 'opacity-50' : 'opacity-100'}
             ${numbers.num1 !== null && numbers.num2 !== null &&
-              numbers.num1 === numbers.num2 ? 'bg-gray-50' : ''}
+              numbers.num1 === numbers.num2 ? 
+              'bg-gray-200 opacity-90 cursor-default hover:opacity-80' : 'bg-white'}
+            ${numbers.num1 !== null && numbers.num2 !== null &&
+              numbers.num1 !== numbers.num2 ? 'opacity-80 border-gray-300 hover:opacity-50 cursor-default' : ''}
           `}
         >
           {num !== null ? num : '-'}

@@ -32,8 +32,8 @@ const NumberGenerator = () => {
 
     return new Promise(resolve => {
       setTimeout(() => {
-        const num1 = Math.floor(Math.random() * 10);
-        const num2 = Math.floor(Math.random() * 10);
+        const num1 = Math.floor(Math.random() * 5) + 1;
+        const num2 = Math.floor(Math.random() * 5) + 1;
         resolve({ num1, num2 });
       }, 2000);
     });

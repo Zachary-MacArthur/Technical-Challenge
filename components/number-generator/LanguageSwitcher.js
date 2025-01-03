@@ -9,7 +9,7 @@ const LanguageSwitcher = ({ language, onToggle }) => {
       onClick={onToggle}
       className="p-2 border border-gray-300 rounded-md
         transition-colors duration-200
-        hover:bg-gray-50 active:bg-gray-100
+        hover:opacity-60 active:bg-gray-100
         flex items-center justify-center"
       title={language === 'en' ? 'Switch to French' : 'Passer en anglais'}
     >
