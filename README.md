@@ -34,8 +34,16 @@ Next.js, React, Javascript, Tailwind CSS, HTML, Vercel
 
 ## Optimizations & Bug Fixes
 
-Added a language translation for French and English
+* Added a language translation for French and English
 
-Fixed Next.js hydration error with useEffect and local storage
+* Fixed Next.js hydration error with useEffect and local storage
 
-Fixed .svg rendering problems with Next.js
+* Fixed .svg rendering problems with Next.js
+
+* Add Scss modules in tandem with tailwind css to improve reusability and efficiency of the project
+
+* Create light and dark themes - scss modules could be helpful for this
+
+* Update the JavaScript code to TypeScript
+
+* Try incorporating Redux
