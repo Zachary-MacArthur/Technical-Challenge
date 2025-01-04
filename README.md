@@ -46,4 +46,4 @@ Next.js, React, Javascript, Tailwind CSS, HTML, Vercel
 
 * Update the JavaScript code to TypeScript
 
-* Try incorporating Redux
+* Incorporate Redux for state management
