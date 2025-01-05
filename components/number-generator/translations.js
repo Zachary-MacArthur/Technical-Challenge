@@ -7,6 +7,6 @@ export const translations = {
     fr: {
       generate: 'Générer',
       generating: 'Génération...',
-      history: 'L\'Histoire'
+      history: 'Historique'
     }
   };
