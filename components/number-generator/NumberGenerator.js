@@ -63,7 +63,7 @@ const NumberGenerator = () => {
   return (
     <div className="max-w-md mx-auto p-6 space-y-8">
       <div className="grid grid-cols-3 items-center">
-        <div /> {/* spacing */}
+        <div /> 
         <div className="flex justify-center">
           <GenerateButton 
             onClick={handleGenerate}
