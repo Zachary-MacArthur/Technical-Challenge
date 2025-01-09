@@ -26,6 +26,8 @@ const NumberGenerator = () => {
     }
   }, [history]);
 
+  
+
   const generateNumbers = () => {
     setIsGenerating(true);
     setNumbers({ num1: null, num2: null });
@@ -85,6 +87,7 @@ const NumberGenerator = () => {
       <NumberHistory 
         history={history}
         title={t.history}
+        language={language}
       />
     </div>
   );
