@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-const NumberHistory = ({ history, title }) => {
+const NumberHistory = ({ history, title, language }) => {
   const sortedHistory = [...history].reverse();  
 
   return (
@@ -17,7 +17,7 @@ const NumberHistory = ({ history, title }) => {
             className="py-2 cursor-default border-b text-sm flex justify-between"
           >
             <span>{item.num1} - {item.num2}</span>
-            <span className="text-gray-500">{item.timestamp}</span>
+            <span className="text-gray-500"> {new Date(item.timestamp).toLocaleString(language === 'en' ? 'en-US' : 'fr-FR')}</span>
           </div>
         ))}
       </div>

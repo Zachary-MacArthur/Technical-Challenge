@@ -47,9 +47,7 @@ const NumberGenerator = () => {
       ...prev,
       {
         ...newNumbers,
-        timestamp: new Date().toLocaleString(
-          language === 'en' ? 'en-US' : 'fr-FR'
-        )
+        timestamp: new Date()
       }
     ]);
   };
