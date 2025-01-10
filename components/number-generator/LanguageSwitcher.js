@@ -1,6 +1,5 @@
 'use client';
 
-import React from 'react';
 import LanguageIcon from './LanguageIcon';
 
 const LanguageSwitcher = ({ language, onToggle }) => {
