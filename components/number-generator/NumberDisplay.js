@@ -14,7 +14,7 @@ const NumberDisplay = ({ numbers, isGenerating }) => {
             ${isGenerating ? 'opacity-50' : 'opacity-100'}
             ${numbers.num1 !== null && numbers.num2 !== null &&
               numbers.num1 === numbers.num2 ? 
-              'bg-gray-200 opacity-90 cursor-default hover:opacity-80' : 'bg-white'}
+              'bg-blue-200 opacity-90 cursor-default hover:opacity-80' : 'bg-white'}
             ${numbers.num1 !== null && numbers.num2 !== null &&
               numbers.num1 !== numbers.num2 ? 'opacity-80 border-gray-300 hover:opacity-50 cursor-default' : ''}
           `}
